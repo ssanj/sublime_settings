@@ -1,0 +1,4 @@
+{
+    "extensions": ["COMMIT_EDITMSG"],
+    "rulers": [50, 72]
+}

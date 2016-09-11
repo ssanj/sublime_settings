@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+```{.scala .scrollx}
+${1://your code here}
+```
+]]></content>
+    <tabTrigger>scalablock</tabTrigger>
+</snippet>

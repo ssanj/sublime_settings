@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+import org.scalacheck.Properties
+import org.scalacheck.{Prop, Gen}
+
+object ${1}Props extends Properties("${2}") {
+
+  private def genShortStrings: Gen[String] = for {
+    length <- Gen.choose(3, 10)
+    value  <- Gen.listOfN(length, Gen.alphaLowerChar)
+  } yield value.mkString
+
+  property("${3}") =
+    Prop.forAll(genShortStrings) { inputs: Seq[String] =>
+        inputs.length <= 10
+    }
+  }
+]]></content>
+    <tabTrigger>props</tabTrigger>
+    <scope>source.scala</scope>
+</snippet>

@@ -1,0 +1,62 @@
+{
+	"added_words":
+	[
+		"We’ve",
+		"sanjiv",
+		"sahayam",
+		"christianity"
+	],
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.class"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"dictionary": "Packages/User/Dictionaries/English_AU.dic",
+	"draw_white_space": "all",
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		"*.o",
+		"*.lib",
+		"*.so",
+		".DS_Store",
+		"*.hi",
+		"site"
+	],
+	"folder_exclude_patterns":
+	[
+		"_site",
+		"_cache",
+		".git"
+	],
+	"font_face": "courier new",
+	"font_size": 17,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		120
+	],
+	"show_definitions": false,
+	"spell_check": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"font_options" : ["gray_antialias"]
+}

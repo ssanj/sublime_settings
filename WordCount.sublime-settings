@@ -1,0 +1,4 @@
+{
+    "whitelist_syntaxes": ["Plain text", "Markdown"],
+    "blacklist_syntaxes": ["CSS", "SQL", "JavaScript", "Python", "PHP", "JSON", "Scala", "Haskell", "HTML"],
+}

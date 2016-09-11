@@ -1,0 +1,15 @@
+[
+    { "keys": ["f4"], "command": "goto_definition" },
+    { "keys": ["shift+f4"], "command": "reveal_in_side_bar" },
+    { "keys": ["alt+super+left"], "command": "jump_back" },
+    { "keys": ["alt+super+right"], "command": "jump_forward" },
+    { "keys": ["shift+super+ctrl+w"], "command": "close_all" },
+    { "keys": ["super+alt+n"], "command": "next_sbt_error" },
+    { "keys": ["super+alt+s"], "command": "stop_sbt" },
+    { "keys": ["super+alt+c"], "command": "sbt", "args": {"command": "~ compile"} },
+    { "keys": ["shift+f6"], "command": "side_bar_rename" },
+    { "keys": ["f5"], "command": "side_bar_move" },
+    { "keys": ["shift+super+ctrl+s"], "command": "save_all" },
+    { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+    { "keys": ["f9"], "command": "srtbyli", "args": {"sort": "naturalOrder","reversed": false} }
+]

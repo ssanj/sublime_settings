@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<div>
+<div class="quote">$1</div>
+<div class="attribution">$2</div>
+</div>
+]]></content>
+    <tabTrigger>quote_tags</tabTrigger>
+</snippet>

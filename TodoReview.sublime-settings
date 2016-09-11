@@ -1,0 +1,12 @@
+{
+    "exclude_folders": [
+        "*.git*",
+        "*.ctags_srcs*",
+        "*target*"
+    ],
+    "exclude_files": [
+        "*.sublime-workspace",
+        "*.sublime-project",
+        "*.tags"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+	"extensions":
+	[
+		"java",
+		"sbt"
+	],
+	"font_face": "courier new",
+	"font_size": 18,
+	"rulers":
+	[
+		110
+	],
+	"tab_size": 2
+}

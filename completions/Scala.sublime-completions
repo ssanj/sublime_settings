@@ -1,0 +1,16 @@
+{
+  "scope": "meta.import.scala",
+
+  "completions":
+  [
+    { "trigger": "org.scalatest.Matchers", "contents": "org.scalatest.Matchers" },
+    { "trigger": "org.scalatest.WordSpecLike", "contents": "org.scalatest.WordSpecLike" },
+    { "trigger": "scala.util.matching.Regex", "contents": "scala.util.matching.Regex" },
+    { "trigger": "scala.util.matching.Regex.Match", "contents": "scala.util.matching.Regex.Match" },
+    { "trigger": "scala.util.Try", "contents": "scala.util.Try" },
+    { "trigger": "scala.util.Success", "contents": "scala.util.Success" },
+    { "trigger": "scala.util.Failure", "contents": "scala.util.Failure" },
+    { "trigger": "scala.concurrent.Future", "contents": "scala.concurrent.Future" },
+    { "trigger": "scala.concurrent.Future._", "contents": "scala.concurrent.{ExecutionContext, Future}" }
+  ]
+}

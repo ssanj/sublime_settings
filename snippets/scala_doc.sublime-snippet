@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+/** ${1:Description Summary}
+  *  More descriptions.
+  *
+  *  @example {{{
+  *    //your example code
+  *  }}}
+  *
+  *  @tparam
+  *  @param
+  *  @see
+  */
+]]></content>
+    <tabTrigger>sdoc</tabTrigger>
+    <scope>source.scala</scope>
+</snippet>

@@ -1,0 +1,9 @@
+{
+	"extensions" : 
+        [
+           "properties" 
+        ],
+        "font_face": "courier new",
+	"font_size": 20,
+	"tab_size": 4
+}
