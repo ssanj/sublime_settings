@@ -1,0 +1,51 @@
+<snippet>
+    <content><![CDATA[
+Name:    ${1:name}
+Version: 0.0.1
+
+Synopsis: ${2:synopsis}
+Description: ${2}
+
+Author:       Sanjiv Sahayam <sanjsmailbox@gmail.com>
+License-File: LICENSE
+Category:     Web
+
+Cabal-Version: >= 1.8
+Build-Type:    Simple
+Data-Dir:      data
+
+Data-files:
+  templates/rss.xml
+
+Extra-source-files:
+  tests/data/example.md
+
+Source-Repository head
+  Type:     git
+  Location: git://github.com/ssanj/${1}.git
+
+Library
+  Ghc-Options:    -Wall
+  Hs-Source-Dirs: src
+
+  -- Exposed-Modules:
+
+  -- Other-Modules:
+
+  Build-Depends:
+    time            >= 1.1    && < 1.5
+
+Executable hakyll-init
+  Ghc-options:    -Wall
+  Hs-source-dirs: src
+  Main-is:   src/Main.hs
+
+build-depends:       base >=4.7 && <4.8,
+
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cabal</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

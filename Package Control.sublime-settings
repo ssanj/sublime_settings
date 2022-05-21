@@ -1,0 +1,34 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alabaster Color Scheme",
+		"Elm Syntax Highlighting",
+		"GitGutter",
+		"LSP",
+		"LSP-elm",
+		"LSP-file-watcher-chokidar",
+		"LSP-metals",
+		"LSP-rust-analyzer",
+		"MarkdownPreview",
+		"Package Control",
+		"PackageDev",
+		"PackageResourceViewer",
+		"Pretty JSON",
+		"Quick File Creator",
+		"Scoggle",
+		"ScopeHunter",
+		"sensory-underload",
+		"SideBarEnhancements",
+		"Sublime-minihtml-Preview",
+	],
+	"repositories":
+	[
+		"https://github.com/ssanj/sensory-underload.git",
+		"https://github.com/ssanj/sensory-underload.git",
+		"https://github.com/ehuss/Sublime-minihtml-Preview",
+	],
+}

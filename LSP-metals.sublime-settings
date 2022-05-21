@@ -1,0 +1,20 @@
+{
+  "server_version" : "0.10.9",
+
+   // initialization options
+  "initializationOptions": {
+    // (ST4 only) When enabled, inferred types and implicits are shown as as Sublime.Phantom.
+    "inlineDecorationProvider": false
+  },
+
+  "settings": {
+    "metals": {
+      // (ST4 only) When enabled, each method and variable that can have inferred types has them displayed.
+      "showInferredType": true,
+      // (ST4 only) When enabled, each method that has implicit arguments has them displayed.
+      "showImplicitArguments": true,
+      // (ST4 only) When enabled, each place where an implicit method or class is used has it displayed.
+      "showImplicitConversionsAndClasses": true
+    }
+  }
+}

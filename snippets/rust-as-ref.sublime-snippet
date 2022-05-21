@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+impl AsRef<${1:TargetType}> for ${2:SourceType} {
+  fn as_ref(&self) -> &${1:TargetType} {
+    &self.0
+  }
+}
+]]></content>
+  <scope>source.rust</scope>
+</snippet>

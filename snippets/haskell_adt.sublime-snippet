@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+data ${1} = ${2}
+          | ${3}
+          | ${4} deriving stock (Eq, Show)
+]]></content>
+  <tabTrigger>adt</tabTrigger>
+  <scope>source.haskell</scope>
+</snippet>

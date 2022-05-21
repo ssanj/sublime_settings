@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+impl Into<$2> for $1 {
+    fn into(self) -> $2 {
+      self.???
+    }
+}]]></content>
+  <scope>source.rust</scope>
+</snippet>

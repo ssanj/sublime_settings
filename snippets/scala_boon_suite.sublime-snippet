@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+import boon._
+
+object ${1}Suite extends SuiteLike("${1} Suite") {
+
+  private val t1 = test(${2}) {
+    true =?= true | "a truism"
+  }
+
+  override val tests = oneOrMore(t1)
+}
+]]></content>
+  <scope>source.scala</scope>
+</snippet>

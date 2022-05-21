@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+```{.haskell .scrollx}
+${1:code}
+```
+]]></content>
+  <tabTrigger>hscode</tabTrigger>
+</snippet>

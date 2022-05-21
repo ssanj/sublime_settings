@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+implicit val ${1/(\b\w)/(?1\l\1:)/g}Arbitrary: Arbitrary[${1}] =
+    fromArb[${2}, ${1}](${1})
+
+]]></content>
+  <tabTrigger>fromArb_scala</tabTrigger>
+  <scope>source.scala</scope>
+</snippet>

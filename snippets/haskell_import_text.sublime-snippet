@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+import qualified Data.Text    as T
+import qualified Data.Text.IO as T
+]]></content>
+  <tabTrigger>i_text</tabTrigger>
+  <scope>source.haskell</scope>
+</snippet>

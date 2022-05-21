@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+{-# LANGUAGE ScopedTypeVariables #-}
+]]></content>
+  <tabTrigger>l_scoped</tabTrigger>
+  <scope>source.haskell</scope>
+</snippet>

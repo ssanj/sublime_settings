@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+data ${1} =
+  ${1} {
+     _${2} :: ${3}
+  ,  _${4} :: ${5}
+  ,  _${6} :: ${7}
+  } deriving stock (Eq, Show)
+]]></content>
+  <tabTrigger>record</tabTrigger>
+  <scope>source.haskell</scope>
+</snippet>

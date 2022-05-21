@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+impl fmt::Display for $1 {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(f, "{}", self.${2})
+    }
+}
+]]></content>
+  <scope>source.rust</scope>
+</snippet>

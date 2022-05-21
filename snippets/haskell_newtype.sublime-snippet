@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+newtype ${1} = ${1} { _${2} :: ${3} } deriving stock (Eq, Show)
+]]></content>
+  <tabTrigger>newtype</tabTrigger>
+  <scope>source.haskell</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+package ${PACKAGE}
+
+import org.scalatest.{Matchers, WordSpecLike}
+
+final class ${TEST_NAME}Spec extends Matchers with WordSpecLike {
+  "${3:Blah}" should {
+    "${4:Blee}" when {
+      "${5:Blue}" in {
+        ${6://write your test here}
+      }
+    }
+  }
+}
+]]></content>
+    <scope>source.scala</scope>
+</snippet>

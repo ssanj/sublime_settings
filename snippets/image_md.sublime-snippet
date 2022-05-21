@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[
+![${1:caption}](/images/${2:filename})
+]]></content>
+</snippet>

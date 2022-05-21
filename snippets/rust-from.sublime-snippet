@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+impl From<${1:SourceType}> for ${2:TargetType} {
+  fn from(${3:field}: $1) -> Self {
+      $2($3)
+  }
+}
+]]></content>
+  <scope>source.rust</scope>
+</snippet>

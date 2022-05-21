@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+---
+title: $1
+author: sanjiv sahayam
+description: $2
+tags: $3
+comments: true
+---
+]]></content>
+    <tabTrigger>meta</tabTrigger>
+</snippet>

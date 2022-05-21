@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the Rust syntax
+{
+  "font_size": 16,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "detect_indentation": false
+}

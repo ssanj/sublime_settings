@@ -1,0 +1,178 @@
+{
+	"ignored_packages":
+	[
+		"GitGutter",
+		"Vintage",
+	],
+
+	"font_size": 18,
+
+	// If enabled, will highlight any line with a caret
+	"highlight_line": true,
+
+	// Makes tabs with modified files more visible
+  "highlight_modified_tabs": true,
+	"rulers":
+	[
+		120,
+		150
+	],
+
+	// Set to true to insert spaces when tab is pressed
+	"translate_tabs_to_spaces": true,
+
+	"trim_trailing_white_space_on_save": true,
+	"tab_size": 2,
+	"folder_exclude_patterns":
+	[
+		"_site",
+		"_cache",
+		".git",
+		".stack-work",
+		"target",
+		".bloop"
+	],
+	"file_exclude_patterns":
+	[
+		"*.o",
+		"*.lib",
+		"*.so",
+		".DS_Store",
+		"*.hi",
+		"site"
+	],
+	// Controls when white space is drawn. Any of the following options may be
+	// combined:
+	// - "selection": Draw white space under the current selection.
+	// - "leading": Draw any white space between the beginning of a line and the
+	//              first character.
+	// - "enclosed": Draw white space enclosed by other characters.
+	// - "trailing": Draw white space following the last character on a line.
+	// - "isolated": Draw white space on lines containing no other characters.
+	// - "all": All of the above, ie. always draw white space.
+	//
+	// These options may be further refined by appending any of the following
+	// separated by an underscore:
+	// - "none": Don't draw this kind of white space.
+	// - "tabs": Only draw tabs here.
+	// - "spaces": Only draw spaces here.
+	// - "mixed": Only draw white space that does not match the indentation
+	//            style. For example if "translate_tabs_to_spaces" is true only
+	//            draw tabs.
+	// - "mixed_tabs": Like "mixed" but only draw tabs.
+	// - "mixed_spaces": Like "mixed" but only draw spaces.
+	// - "all": Draw both tabs and spaces. This is the default.
+	//
+	// Note that options are applied in sequence. So a later option may override
+	// an earlier one.
+	//
+	// Examples:
+	// - ["selection", "trailing", "isolated"]:
+	//     Draw white space at the end of any lines and under the selection.
+	//
+	// - ["all_tabs", "selection"]:
+	//     Draw tabs anywhere and any white space under the selection.
+	//
+	// - ["all_mixed"]:
+	//     Draw any white space that does not match the indentation style.
+	//
+	// - ["leading_mixed", "isolated_mixed"]:
+	//     Draw any indentation that does not match the indentation style.
+	//
+	// - ["selection_mixed_tabs"]:
+	//     Draw only tabs under the selection and only if the indentation style
+	//     is spaces.
+	//
+	// - ["all_tabs", "selection"]:
+	//     Draw all tabs and any white space under the selection.
+	//
+	// - ["all", "selection_none"]:
+	//     Inverse of the default. Draw white space everywhere except under the
+	//     selection.
+	"draw_white_space": "all",
+	"added_words":
+	[
+		"We’ve",
+		"sanjiv",
+		"sahayam",
+		"uppercase",
+		"lowercase",
+		"wildcard",
+		"Contravariant",
+		"typeclass",
+		"",
+		"Zettlekasten",
+	],
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.class"
+	],
+		// Enable auto complete to be triggered automatically when typing.
+		// Turn this off because it's annoying/distracting.
+		// By setting auto_complete_commit_on_tab to true we can get completions
+		// when pressing tab.
+	// "auto_complete": false,
+
+	// By default, auto complete will commit the current completion on enter.
+	// This setting can be used to make it complete on tab instead.
+	// Completing on tab is generally a superior option, as it removes
+	// ambiguity between committing the completion and inserting a newline.
+	// "auto_complete_commit_on_tab": true,
+
+	// Ensure the last line of the file ends in a newline
+	// character when saving
+	"ensure_newline_at_eof_on_save": true,
+	// Additional spacing at the top of each line, in pixels
+	"line_padding_top": 2,
+
+	// Additional spacing at the bottom of each line, in pixels
+	"line_padding_bottom": 2,
+
+	// Controls how the indent guides are drawn. Options may be combined, with
+	// valid options being:
+	//  - "draw_normal" - will draw plain indent guides for every indentation
+	//    group
+	//  - "draw_active" - will draw indent guides for the group
+	//    containing the caret in a different color
+	//  - "draw_active_single" - will draw the right-most indent guide in the
+	//    group containing the caret in a different color
+	//  - "solid" - can be combined with any of the draw_* options to draw
+	//    solid instead of stippled lines
+	"indent_guide_options": ["draw_active"],
+
+	// Display file encoding in the status bar
+	"show_encoding": true,
+
+	// Display line endings in the status bar
+	"show_line_endings": true,
+
+	// Show folders in the side bar in bold
+	"bold_folder_labels": true,
+
+	// The number of spaces a tab is considered equal to
+	/*"tab_size": 2,*/
+
+	//These two settings are need to turn on spell checking
+	"dictionary": "Packages/Language - English/en_GB.dic",
+
+	"spell_check": true,
+	"color_scheme": "Mariana.sublime-color-scheme",
+	"theme": "auto",
+
+	// Magnifies the entire user interface. Sublime Text must be restarted for
+	// this to take effect. 1.0 is normal scale, 0.0 allows for auto-detection
+	"ui_scale": 1.5,
+}

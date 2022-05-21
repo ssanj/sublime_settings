@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+#[derive(Debug, Clone)] 
+pub struct ${1:Name}(${2:Parameter});
+
+impl ${1:Name} {
+  pub fn new(${3:field_name}: ${2:Parameter}) -> Self {
+    ${1:Name}(${3:field_name})
+  }
+}
+]]></content>
+  <scope>source.rust</scope>
+</snippet>

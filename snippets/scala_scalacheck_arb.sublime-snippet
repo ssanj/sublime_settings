@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+implicit val ${1/(\b\w)/(?1\l\1:)/g}Arbitrary: Arbitrary[${1}] = Arbitrary {
+  for {
+    ${3} <- arbitrary[${2}]
+  } yield ${1}(${3})
+}
+]]></content>
+  <tabTrigger>arb_scala</tabTrigger>
+  <scope>source.scala</scope>
+</snippet>

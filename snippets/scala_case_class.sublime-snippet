@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+final case class ${1}(${2}: ${3}, ${4}: ${5})
+]]></content>
+    <tabTrigger>cclass</tabTrigger>
+    <scope>source.scala</scope>
+</snippet>

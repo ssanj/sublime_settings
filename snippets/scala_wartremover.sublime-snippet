@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+@SuppressWarnings(Array("org.wartremover.warts.${1}"))
+]]></content>
+  <tabTrigger>wart</tabTrigger>
+  <scope>source.scala</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+{-# LANGUAGE DerivingStrategies #-}
+]]></content>
+  <tabTrigger>l_deriving</tabTrigger>
+  <scope>source.haskell</scope>
+</snippet>

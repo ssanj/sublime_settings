@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+def ${1/(\b\w)/(?1\l\1:)/g}Gen: Gen[${1}] =
+    fromArb[${2}, ${1}](${1}).arbitrary
+
+]]></content>
+  <tabTrigger>fromArbGen_scala</tabTrigger>
+  <scope>source.scala</scope>
+</snippet>

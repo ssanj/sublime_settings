@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+---
+title: $1 ...
+author: sanjiv sahayam
+description: Quote on $2 by $3.
+tags: quotes
+comments: true
+---
+
+<div>
+<div class="quote">$4</div>
+<div class="attribution">$5</div>
+</div>
+]]></content>
+    <tabTrigger>quote</tabTrigger>
+</snippet>

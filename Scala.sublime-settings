@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the Scala syntax
+{
+  "color_scheme": "Scala to the Min.sublime-color-scheme",
+}

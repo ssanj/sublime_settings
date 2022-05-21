@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+import io.circe.Decoder
+import io.circe.generic.semiauto._
+
+object $1 {
+  implicit val ${1/(.+)/\l$1/g}Decoder: Decoder[$1] = deriveDecoder[$1]
+}
+]]></content>
+  <scope>source.scala</scope>
+</snippet>

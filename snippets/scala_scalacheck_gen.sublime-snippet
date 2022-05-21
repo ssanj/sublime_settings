@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+def ${1/(\b\w)/(?1\l\1:)/g}Gen: Gen[${1}] = for {
+  ${3} <- arbitrary[${2}]
+} yield ${1}(${3})
+]]></content>
+  <tabTrigger>gen_scala</tabTrigger>
+  <scope>source.scala</scope>
+</snippet>

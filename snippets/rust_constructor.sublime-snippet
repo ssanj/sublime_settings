@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+impl ${1:Type} {
+  pub fn new(${2:arg_name}: ${3:ArgType}) -> Self {
+    ${1}(${2})
+  }
+}
+]]></content>
+  <scope>source.rust</scope>
+</snippet>

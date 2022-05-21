@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+module ${1}
+       (
+          -- Data types
+          DT1
+       ,  DT2
+
+          -- Functions
+       ,  function1
+       ,  function2
+       ) where
+
+data DT1 = DT1
+data DT2 = DT2
+
+function1 = undefined
+function2 = undefined
+
+]]></content>
+  <scope>source.haskell</scope>
+</snippet>

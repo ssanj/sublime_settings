@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+---
+title: $1
+author: sanjiv sahayam
+description: Ideas from the book: $2
+tags: book, ideas
+comments: true
+---
+
+Ideas from the book [$3](http://)
+]]></content>
+    <tabTrigger>book</tabTrigger>
+</snippet>

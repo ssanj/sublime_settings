@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+property("${1:should do something}") = {
+    Prop.forAll(${2:alphaStr}) {  ${3:str} =>
+        str.forall(Character.isLetter)
+    }
+}
+]]></content>
+    <tabTrigger>prop</tabTrigger>
+    <scope>source.scala</scope>
+</snippet>

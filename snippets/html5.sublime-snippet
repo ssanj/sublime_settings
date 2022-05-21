@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>${1}</title>
+  <meta name="description" content="${2}">
+  <meta name="author" content="Sanjiv Sahayam">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href='' type='text/css'> -->
+  <!-- <script src=''></script> -->
+ 
+  <!--[if lt IE 9]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div>Hello from the HTML 5 Sublime Snippet! </div>
+</body>
+</html>	
+]]>
+	</content>
+	<tabTrigger>html5</tabTrigger>
+	<description>Creates a sample Html 5 document</description>
+	<scope>text.html</scope>
+</snippet>
