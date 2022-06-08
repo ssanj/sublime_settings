@@ -1,0 +1,15 @@
+[
+  { "caption": "Faves: Default Commands",  "command": "open_file", "args": {"file": "${packages}/User/Default.sublime-commands"} },
+  { "caption": "Faves: Bash Profile",  "command": "open_file", "args": {"file": "/Users/sanj/.bash_profile"} },
+  { "caption": "Faves: Tmux Config",  "command": "open_file", "args": {"file": "/Users/sanj/.tmux.conf"} },
+  { "caption": "Faves: SBT Fns ",  "command": "open_file", "args": {"file": "/Users/sanj/.sbt/1.0/global.sbt"} },
+  { "caption": "Faves: SBT Plugins ",  "command": "open_file", "args": {"file": "/Users/sanj/.sbt/1.0/plugins/plugins.sbt"} },
+  { "caption": "Faves: SBT Repos ",  "command": "open_file", "args": {"file": "/Users/sanj/.sbt/repositories"} },
+  { "caption": "Faves: SBT Creds ",  "command": "open_file", "args": {"file": "/Users/sanj/.sbt/sonatype_credentials"} },
+  { "caption": "Faves: SBT",  "command": "open_dir", "args": {"dir": "/Users/sanj/.sbt"} },
+  { "caption": "Faves: Snippets",  "command": "open_dir", "args": {"dir": "${packages}/User/snippets"} },
+  { "caption": "Faves: Scala to the Min Color Scheme",  "command": "open_file", "args": {"file": "${packages}/User/Scala to the Min.sublime-color-scheme"} },
+  { "caption": "Faves: Sensory Underload Settings",  "command": "open_file", "args": {"file": "${packages}/User/scala-sensory-underload.sublime-settings"} },
+  { "caption": "Faves: Rust Settings",  "command": "open_file", "args": {"file": "${packages}/User/Rust.sublime-settings"} },
+  { "caption": "Faves: Scala Settings",  "command": "open_file", "args": {"file": "${packages}/User/Scala.sublime-settings"} },
+]
