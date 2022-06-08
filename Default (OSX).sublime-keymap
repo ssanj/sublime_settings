@@ -16,4 +16,7 @@
     { "keys": ["super+alt+h"], "command": "noop", "context": [{ "key": "lsp.signature_help", "operator": "equal", "operand": 0}] },
     { "keys": ["super+alt+l"], "command": "lsp_toggle_server_panel"},
     { "keys": ["super+shift+home"], "command": "invert_selection"},
+    { "keys": ["shift+alt+super+left"], "command": "next_view_in_stack" },
+    { "keys": ["shift+alt+super+right"], "command": "prev_view_in_stack" },
+
 ]
