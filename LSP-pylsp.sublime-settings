@@ -1,0 +1,9 @@
+// Settings in here override those in "LSP-pylsp/LSP-pylsp.sublime-settings"
+{
+    "settings": {
+        "pylsp.plugins.jedi.extra_paths": [
+            // $folder is the first project folder in your ST project folders
+            "$folder/typings",
+        ],
+    },
+}

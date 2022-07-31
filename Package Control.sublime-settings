@@ -6,12 +6,13 @@
 	"installed_packages":
 	[
 		"Alabaster Color Scheme",
+		"CommandsBrowser",
 		"Elm Syntax Highlighting",
-		"GitGutter",
 		"LSP",
 		"LSP-elm",
 		"LSP-file-watcher-chokidar",
 		"LSP-metals",
+		"LSP-pyright",
 		"LSP-rust-analyzer",
 		"MarkdownPreview",
 		"Package Control",
@@ -20,7 +21,6 @@
 		"Pretty JSON",
 		"Quick File Creator",
 		"Scoggle",
-		"ScopeHunter",
 		"sensory-underload",
 		"SideBarEnhancements",
 		"Sublime-minihtml-Preview",

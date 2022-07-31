@@ -1,7 +1,6 @@
 {
 	"ignored_packages":
 	[
-		"GitGutter",
 		"Vintage",
 	],
 
@@ -30,7 +29,10 @@
 		".git",
 		".stack-work",
 		"target",
-		".bloop"
+		".bloop",
+		".mypy_cache",
+		".metals",
+		"target"
 	],
 	"file_exclude_patterns":
 	[
@@ -102,6 +104,7 @@
 		"typeclass",
 		"",
 		"Zettlekasten",
+		"unwheldly",
 	],
 	"binary_file_patterns":
 	[
@@ -175,4 +178,10 @@
 	// Magnifies the entire user interface. Sublime Text must be restarted for
 	// this to take effect. 1.0 is normal scale, 0.0 allows for auto-detection
 	"ui_scale": 1.5,
+
+	"SublimeQuickFileCreator": {
+ 	 	"excluded_dir_patterns": [
+  	  "|.git", "|.svn", "target"
+		],
+},
 }
