@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+list(map(lambda ${2:item}: ${3}, ${1:items}))
+]]></content>
+  <scope>source.python</scope>
+</snippet>

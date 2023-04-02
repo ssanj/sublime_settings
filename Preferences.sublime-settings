@@ -4,7 +4,7 @@
 		"Vintage",
 	],
 
-	"font_size": 18,
+	"font_size": 14,
 
 	// If enabled, will highlight any line with a caret
 	"highlight_line": true,
@@ -173,15 +173,18 @@
 
 	"spell_check": true,
 	"color_scheme": "Mariana.sublime-color-scheme",
-	"theme": "auto",
+	"theme": "Default Dark.sublime-theme",
 
 	// Magnifies the entire user interface. Sublime Text must be restarted for
 	// this to take effect. 1.0 is normal scale, 0.0 allows for auto-detection
-	"ui_scale": 1.5,
+	// "ui_scale": 1.5,
 
 	"SublimeQuickFileCreator": {
  	 	"excluded_dir_patterns": [
   	  "|.git", "|.svn", "target"
 		],
-},
+	},
+
+"hot_exit": false,
+"remember_open_files": false,
 }
