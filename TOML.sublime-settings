@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the TOML syntax
+{
+  "color_scheme": "Toml to the Min.sublime-color-scheme",
+  "font_size": 18,
+}

@@ -4,7 +4,8 @@
 		"Vintage",
 	],
 
-	"font_size": 14,
+	"font_size": 32,
+	"font_face": "Menlo",
 
 	// If enabled, will highlight any line with a caret
 	"highlight_line": true,
@@ -105,6 +106,7 @@
 		"",
 		"Zettlekasten",
 		"unwheldly",
+		"Zat",
 	],
 	"binary_file_patterns":
 	[
@@ -154,7 +156,8 @@
 	//    group containing the caret in a different color
 	//  - "solid" - can be combined with any of the draw_* options to draw
 	//    solid instead of stippled lines
-	"indent_guide_options": ["draw_active"],
+	// "indent_guide_options": ["draw_active"],
+	"indent_guide_options": ["draw_active_single", "solid"],
 
 	// Display file encoding in the status bar
 	"show_encoding": true,
@@ -172,7 +175,7 @@
 	"dictionary": "Packages/Language - English/en_GB.dic",
 
 	"spell_check": true,
-	"color_scheme": "Mariana.sublime-color-scheme",
+	"color_scheme": "Scala to the Min-0.sublime-color-scheme",
 	"theme": "Default Dark.sublime-theme",
 
 	// Magnifies the entire user interface. Sublime Text must be restarted for
@@ -187,4 +190,11 @@
 
 "hot_exit": false,
 "remember_open_files": false,
+	"ignored_words":
+	[
+		"param",
+		"scala",
+		"tparam",
+	],
+	"index_files": true,
 }

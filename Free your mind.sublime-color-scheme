@@ -1,0 +1,32 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables":
+  {
+  },
+  "globals":
+  {
+  },
+  "rules":
+  [
+    {
+      "name": "Keys",
+      "scope": "source.json meta.sequence.json meta.mapping.key.json",
+      "foreground":"hsl(210, 60%, 60%)"
+    },
+    {
+      "name": "Values",
+      "scope": "source.json meta.sequence.json meta.mapping.value.json",
+      "foreground":"hsl(40, 94%, 68%)"
+    },
+    {
+      "name": "Arrays",
+      "scope": "source.json punctuation.section.sequence.begin.json, source.json punctuation.section.sequence.end.json",
+      "foreground":"white"
+    },
+    {
+      "name": "Objects",
+      "scope": "source.json punctuation.section.mapping.begin.json, source.json punctuation.section.mapping.end.json",
+      "foreground":"white"
+    }
+  ]
+}

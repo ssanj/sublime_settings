@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+while IFS= read -r ${1:VARIABLE}; do
+    echo "... \$$1 ..."
+done <<< "\$${2:LINE_DELIMITED_VAR}"
+]]></content>
+  <scope>source.shell</scope>
+</snippet>

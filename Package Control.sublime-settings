@@ -5,10 +5,13 @@
 	],
 	"installed_packages":
 	[
+		"AceJump",
 		"Alabaster Color Scheme",
 		"BlogTools",
 		"CommandsBrowser",
+		"Dockerfile Syntax Highlighting",
 		"Elm Syntax Highlighting",
+		"ElmCopy",
 		"INI",
 		"LSP",
 		"LSP-elm",
@@ -28,10 +31,14 @@
 		"RecentFolders",
 		"Scoggle",
 		"ScopeHunter",
+		"Select Quoted",
 		"sensory-underload",
 		"SideBarEnhancements",
+		"sublime-gitfiles",
 		"Sublime-minihtml-Preview",
+		"SymbolView",
 		"syntax-openmetrics",
+		"TOML",
 	],
 	"repositories":
 	[
@@ -43,5 +50,8 @@
 		"https://github.com/ssanj/BlogTools",
 		"https://github.com/ssanj/OpenWindows",
 		"https://github.com/ssanj/RecentFolders",
+		"https://github.com/ssanj/SymbolView",
+		"https://github.com/ssanj/ElmCopy",
+		"https://github.com/ninth-dev/sublime-gitfiles",
 	],
 }

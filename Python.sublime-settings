@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the Python syntax
+{
+    "font_size": 18,
+    "color_scheme": "Python to the Min.sublime-color-scheme",
+}

@@ -1,3 +1,5 @@
 // These settings override both User and Default settings for the Markdown syntax
 {
+  "font_size": 18,
+  "color_scheme": "Markdown to the Min.sublime-color-scheme"
 }

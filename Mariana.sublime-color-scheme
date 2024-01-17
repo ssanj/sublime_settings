@@ -5,10 +5,8 @@
   },
   "globals":
   {
-    "rulers": "var(orange3)",
   },
   "rules":
   [
-
   ]
 }

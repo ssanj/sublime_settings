@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+#[derive(Debug, Clone, PartialEq)]
+]]></content>
+  <tabTrigger>derive</tabTrigger>
+  <scope>source.rust</scope>
+</snippet>
