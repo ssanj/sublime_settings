@@ -4,7 +4,7 @@
 		"Vintage",
 	],
 
-	"font_size": 32,
+	"font_size": 34,
 	"font_face": "Menlo",
 
 	// If enabled, will highlight any line with a caret
