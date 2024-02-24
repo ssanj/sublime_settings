@@ -1,6 +1,7 @@
 // These settings override both User and Default settings for the JSON syntax
 {
   "font_size": 18,
+  "color_scheme": "JSON to the Min.sublime-color-scheme",
   "extensions":
   [
 		"zat-prompt",
